@@ -51,3 +51,4 @@ array.collect do |value|
   value+s
   binding.pry
 end
+end
