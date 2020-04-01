@@ -28,7 +28,7 @@ def kesha_maker(array)
 s=""
 a=Array.new
 array.each do |element|
-s=element
+s << element
 s.insert(2,'$')
 a.push(s)
 end
