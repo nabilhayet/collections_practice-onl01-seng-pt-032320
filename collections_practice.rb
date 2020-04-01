@@ -18,7 +18,10 @@ end
 end
 
 def swap_elements(sw)
-  sw[1,2]=sw[2,1]
+  temp=""
+  temp=sw[1]
+  sw[1]=sw[2]
+  sw[2]=temp
   sw
 end
 
