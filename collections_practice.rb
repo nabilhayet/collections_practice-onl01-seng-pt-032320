@@ -32,7 +32,8 @@ array.each do |element|
 s=s+element
 s[2]="$"
 end 
-a=s.split("")
 binding.pry
+a=s.split("")
+
 a
 end 
