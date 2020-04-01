@@ -29,7 +29,7 @@ def kesha_maker(array)
 s=""
 a=Array.new
 array.each do |element|
-s << element
+s=s+element
 s[2]="$"
 binding.pry
 a=s.split("")
