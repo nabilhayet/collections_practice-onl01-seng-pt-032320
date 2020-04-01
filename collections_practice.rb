@@ -53,3 +53,4 @@ array.collect do |value|
     valu=value+s
 end
 end
+end
