@@ -1,27 +1,27 @@
 require "pry"
-def sort_array_asc(array)
-array.sort do |a,b|
+def sort_array_asc(array1)
+array1.sort do |a,b|
    a<=>b
 end
 end 
 
-def sort_array_desc(array)
-array.sort do |a,b|
+def sort_array_desc(array2)
+array2.sort do |a,b|
    b<=>a
 end
 end 
 
-def sort_array_char_count(array)
-array.sort do |a,b|
+def sort_array_char_count(array3)
+array3.sort do |a,b|
    a<=>b
 end
 end
 
-def swap_elements(array)
-  temp=array[1]
-  array[1]=array[2]
-  array[2]=temp
-  array
+def swap_elements(sw)
+  temp=sw[1]
+  sw[1]=sw[2]
+  sw[2]=temp
+  sw
   binding.pry
 end
 
