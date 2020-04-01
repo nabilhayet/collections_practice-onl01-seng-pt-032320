@@ -22,7 +22,6 @@ def swap_elements(sw)
   sw[1]=sw[2]
   sw[2]=temp
   binding.pry
-  sw
 end
 
 def reverse_array(array)
