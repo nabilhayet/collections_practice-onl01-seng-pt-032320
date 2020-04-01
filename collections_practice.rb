@@ -47,9 +47,9 @@ def sum_array(array)
 end
 
 def add_s(array)
+  ss=[]
 array.collect do |value|
-    binding.pry
-  value+s
+  ss << value+s
 
 end
 end
