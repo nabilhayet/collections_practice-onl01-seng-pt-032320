@@ -31,8 +31,9 @@ a=Array.new
 array.each do |element|
 s=s+element
 s[2]="$"
-binding.pry
+
 a=s.split("")
+binding.pry
 end
 a
 end 
