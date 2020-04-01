@@ -45,3 +45,8 @@ end
 def sum_array(array)
   array.inject(:+)
 end
+
+def add_s(array)
+array.each do |value|
+  
+end
