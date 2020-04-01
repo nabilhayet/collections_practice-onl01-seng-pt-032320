@@ -30,8 +30,8 @@ s=""
 a=Array.new
 array.each do |element|
 s << element
-binding.pry
 s[2]="$"
+binding.pry
 a=s.split("")
 end
 a
