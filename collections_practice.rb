@@ -16,8 +16,6 @@ def sort_array_char_count(array3)
    a.length<=>b.length
 end
 end
-array3
-end
 
 def swap_elements(sw)
   temp=""
