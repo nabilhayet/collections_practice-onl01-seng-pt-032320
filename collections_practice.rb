@@ -33,11 +33,8 @@ def kesha_maker(array)
 s=""
 a=Array.new
 array.each do |element|
-s=s+element
 element[2]="$"
 end 
-a=s.split("")
-a
 end 
 
 def find_a(array)
