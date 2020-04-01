@@ -47,6 +47,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-array.each do |value|
+array.collect do |value|
   value+s
 end
