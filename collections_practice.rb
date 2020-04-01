@@ -12,9 +12,8 @@ end
 end 
 
 def sort_array_char_count(array3)
-  array3.each do |name.length|
-   name.sort do |a.length,b.length|
-   a<=>b
+   array3.sort do |a,b|
+   a.length<=>b.length
 end
 end
 array3
