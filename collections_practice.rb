@@ -34,6 +34,5 @@ s[2]="$"
 end 
 a=s.split("")
 binding.pry
-end
 a
 end 
