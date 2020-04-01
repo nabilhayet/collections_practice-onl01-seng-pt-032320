@@ -41,3 +41,5 @@ array.select do |number|
   number.start_with?("a")
 end
 end
+
+def 
