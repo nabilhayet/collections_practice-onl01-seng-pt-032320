@@ -30,8 +30,6 @@ array.reverse
 end
 
 def kesha_maker(array)
-s=""
-a=Array.new
 array.each do |element|
 element[2]="$"
 end 
