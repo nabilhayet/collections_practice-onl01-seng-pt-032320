@@ -46,7 +46,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  ss=[]
 array.collect do |value|
   ss << value+ "s"
   
