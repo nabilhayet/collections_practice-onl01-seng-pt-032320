@@ -12,7 +12,7 @@ end
 end 
 
 def sort_array_char_count(array3)
-  array3.each do |name|
+  array3.each do |name.length|
    name.sort do |a.length,b.length|
    a<=>b
 end
