@@ -34,6 +34,10 @@ s[2]="$"
 end 
 binding.pry
 a=s.split("")
-
 a
 end 
+
+def find_a(array)
+array.select do |number|
+  number.start_with?("a")
+end
