@@ -1,3 +1,4 @@
+require "pry"
 def sort_array_asc(array)
 array.sort do |a,b|
    a<=>b
@@ -29,6 +30,7 @@ s=""
 a=Array.new
 array.each do |element|
 s << element
+binding.pry
 s.insert(2,'$')
 a.push(s)
 end
