@@ -22,6 +22,7 @@ def swap_elements(array)
   array[1]=array[2]
   array[2]=temp
   array
+  binding.pry
 end
 
 def reverse_array(array)
@@ -53,7 +54,7 @@ def add_s(array)
   ss=[]
 array.collect do |value|
   ss << value+ "s"
-  binding.pry
+  
 
 end
 end
