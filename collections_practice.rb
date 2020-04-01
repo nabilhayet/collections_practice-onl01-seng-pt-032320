@@ -50,6 +50,7 @@ def add_s(array)
   ss=[]
 array.collect do |value|
   ss << value+s
+  binding.pry
 
 end
 end
