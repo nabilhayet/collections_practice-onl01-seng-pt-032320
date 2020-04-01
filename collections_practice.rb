@@ -42,4 +42,5 @@ array.select do |number|
 end
 end
 
-def 
+def sum_array(array)
+  
