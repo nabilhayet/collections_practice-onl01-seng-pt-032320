@@ -18,7 +18,10 @@ end
 end
 
 def swap_elements(array)
-  swap_elements_from_to()
+  temp=array[1]
+  array[1]=array[2]
+  array[2]=temp
+  
 end
 
 def reverse_array(array)
