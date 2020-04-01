@@ -50,7 +50,7 @@ array.collect do |value|
   if value ==array[1]
     value
   else
-    value=value+s
+    value=value+"s"
 end
 end
 end
