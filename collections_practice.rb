@@ -31,7 +31,7 @@ a=Array.new
 array.each do |element|
 s << element
 binding.pry
-s.insert(2,'$')
+s[2]="$"
 a.push(s)
 end
 end 
