@@ -49,4 +49,5 @@ end
 def add_s(array)
 array.collect do |value|
   value+s
+  binding.pry
 end
