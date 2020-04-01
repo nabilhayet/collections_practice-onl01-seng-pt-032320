@@ -34,7 +34,7 @@ s=""
 a=Array.new
 array.each do |element|
 s=s+element
-s[2]="$"
+element[2]="$"
 end 
 a=s.split("")
 a
