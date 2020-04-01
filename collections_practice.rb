@@ -34,4 +34,5 @@ binding.pry
 s[2]="$"
 a=s.split("")
 end
+a
 end 
